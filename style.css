@@ -1,0 +1,71 @@
+body{
+    font-family: 'Hahmlet', serif;
+    background:#F1F4F9;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.form-container {
+    background: #EFF5FF;
+    margin: 158px auto;
+    width: 400px;
+}
+
+form {
+padding: 28px;
+}
+
+form h3 {
+    text-align: center;
+}
+
+form .input-conteiner{
+    position: relative;
+    margin-bottom: 15px;
+}
+
+form .input-conteiner input, input[type="submit"] {
+    width: 100%;
+    height: 45px;
+    border-radius: 25px;
+}
+form input[type="submit"] {
+    border: 0;
+    background: red;
+    color: white;
+    font-weight:bold;
+}
+
+form .input-conteiner input{
+    border: 1px solid #DAEAF3 ;
+    color: #B7C2C7;
+    padding: 0 55px 0 25px;
+}
+
+form .input-conteiner input::placeholder {
+color:#E2EBE2;
+}
+
+svg {
+    position: absolute;
+    right: 20px;
+    top: calc(50% - 14px);
+    color: #677881;
+}
+
+.options-container {
+    padding: 0 20px;
+    margin: 25px auto;
+}
+
+.options-container .checkbox-container {
+    display: inline-block;
+    width: 50%;
+}
+ .options-container a {
+     text-align: right;
+     color: red;
+     text-decoration: none;
+ }
