@@ -9,19 +9,19 @@ body{
 
 .form-container {
     background: #EFF5FF;
-    margin: 158px auto;
+    margin: 150px auto;
     width: 400px;
 }
 
 form {
-padding: 28px;
+padding: 20px;
 }
 
 form h3 {
     text-align: center;
 }
 
-form .input-conteiner{
+form .input-conteiner {
     position: relative;
     margin-bottom: 15px;
 }
@@ -36,6 +36,7 @@ form input[type="submit"] {
     background: red;
     color: white;
     font-weight:bold;
+    margin-bottom: 20px;
 }
 
 form .input-conteiner input{
@@ -51,21 +52,65 @@ color:#E2EBE2;
 svg {
     position: absolute;
     right: 20px;
-    top: calc(50% - 14px);
-    color: #677881;
+    top: calc(50% - 12px);
+    color: #818181;
 }
 
 .options-container {
     padding: 0 20px;
     margin: 25px auto;
+    color: #818181;
 }
 
-.options-container .checkbox-container {
+.options-container .checkbox-container, a {
     display: inline-block;
     width: 50%;
 }
- .options-container a {
+
+.options-container a {
      text-align: right;
      color: red;
      text-decoration: none;
  }
+
+ form p {
+    color: #818181;
+    text-align: center;
+}
+
+form .social-media-container {
+    width: fit-content;
+}
+
+form .social-media-container .icon-container {
+    background: #375c98;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    position: relative;
+}
+
+form .social-media-container .icon-container:nth-child(2) {
+    background: #C54F33;
+}
+
+form .social-media-container .icon-container:nth-child(3) {
+    background: #4dadf2;
+}
+
+form .social-media-container .icon-container svg {
+    position: absolute;
+    top: calc(50% - 12px);
+    left: calc(50% - 12px);
+    color: white;
+}
+
+hr {
+    color: #818181;
+}
+
+.footer {
+    width: fit-content;
+    margin: 20px auto;
+}
