@@ -1,4 +1,4 @@
-# Projeto Formulário de SignIn
+# Projeto Formulário de Sign In
 
 Para ver o projeto ao vivo,[clique aqui](https://hitawana.github.io/signinforme/)
 
